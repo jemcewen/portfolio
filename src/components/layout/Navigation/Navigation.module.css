@@ -1,0 +1,39 @@
+.navigation {
+  width: 100%;
+  padding: 0 10vw;
+  background-color: black;
+  position: sticky;
+  top: 0;
+  box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+}
+
+.links {
+  height: 4rem;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  gap: 4vw;
+}
+
+.links a {
+  display: inline-block;
+  color: white;
+  font-size: 1.05rem;
+  font-weight: 600;
+  transition: all 200ms;
+}
+
+.links a:hover {
+  color: #81c4ff;
+  transform: scale(1.2);
+}
+
+@media (max-width: 480px) {
+  .navigation {
+    padding: 0;
+  }
+  .links {
+    justify-content: space-around;
+    gap: 0;
+  }
+}
