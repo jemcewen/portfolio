@@ -28,6 +28,7 @@ a {
 .links li:hover {
   background-color: rgba(50, 50, 50, 0.5);
   border-radius: 0.5rem;
+  cursor: pointer;
 }
 
 .links li a {
@@ -44,6 +45,10 @@ a {
 .contact {
   background-color: rgba(50, 50, 50, 1);
   border-radius: 0.5rem;
+}
+
+.contact:hover {
+  cursor: pointer;
 }
 
 .mobile {
