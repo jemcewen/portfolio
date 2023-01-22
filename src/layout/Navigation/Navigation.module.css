@@ -79,3 +79,9 @@ a {
     display: block;
   }
 }
+
+@media (min-width: 469px) and (max-width: 768px) {
+  .nav {
+    padding: 0 4vw;
+  }
+}
