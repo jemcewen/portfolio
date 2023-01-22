@@ -1,0 +1,81 @@
+a {
+  color: white;
+}
+
+.nav {
+  width: 100%;
+  height: 5rem;
+  padding: 0 10vw;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  position: sticky;
+  top: 0;
+  background-color: black;
+}
+
+.links {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 3vw;
+}
+
+.links li {
+  padding: 0.6rem 1rem;
+}
+
+.links li:hover {
+  background-color: rgba(50, 50, 50, 0.5);
+  border-radius: 0.5rem;
+}
+
+.links li a {
+  font-size: 1.05rem;
+  font-weight: 600;
+  transition: transform 200ms ease-in-out;
+}
+
+.logo {
+  font-size: 1.25rem;
+  font-weight: 600;
+}
+
+.contact {
+  background-color: rgba(50, 50, 50, 1);
+  border-radius: 0.5rem;
+}
+
+.mobile {
+  display: none;
+  z-index: 1;
+}
+
+.icon {
+  color: white;
+  font-size: 1.5rem;
+}
+
+@media (max-width: 480px) {
+  .links {
+    flex-direction: column;
+    justify-content: flex-start;
+    position: fixed;
+    top: 0;
+    right: -80vw;
+    min-height: 100vh;
+    width: 80vw;
+    gap: 2rem;
+    padding-top: 8rem;
+    background-color: rgb(63, 63, 63);
+    transition: 0.3s ease-in-out;
+  }
+
+  .links.clicked {
+    right: 0;
+  }
+
+  .mobile {
+    display: block;
+  }
+}
