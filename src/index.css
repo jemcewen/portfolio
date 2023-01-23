@@ -8,6 +8,10 @@
   box-sizing: border-box;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 body,
 button,
 input,
@@ -24,17 +28,19 @@ ul {
   list-style: none;
 }
 
-.section {
+section {
   display: flex;
   align-items: center;
   justify-content: center;
-  min-height: calc(100vh - 13rem);
+  min-height: calc(100vh - 5rem);
   background-color: rgb(219, 219, 219);
+  scroll-margin-top: 5rem;
 }
 
 @media (max-width: 480px) {
-  .section {
-    min-height: calc(100vh - 12rem);
+  section {
+    min-height: calc(100vh - 4rem);
+    scroll-margin-top: 4rem;
   }
 }
 
