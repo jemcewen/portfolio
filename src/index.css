@@ -17,8 +17,31 @@ textarea {
 
 a {
   text-decoration: none;
+  color: inherit;
 }
 
 ul {
   list-style: none;
+}
+
+.section {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: calc(100vh - 13rem);
+  background-color: rgb(219, 219, 219);
+}
+
+@media (max-width: 480px) {
+  .section {
+    min-height: calc(100vh - 12rem);
+  }
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 90%;
+  gap: 2rem;
 }

@@ -17,7 +17,9 @@ const Navigation = () => {
       <div>
         <ul
           className={
-            clicked ? `${styles.links} ${styles.clicked}` : `${styles.links}`
+            clicked
+              ? `${styles['nav-links']} ${styles.clicked}`
+              : `${styles['nav-links']}`
           }
         >
           <li>
@@ -29,12 +31,14 @@ const Navigation = () => {
           <li>
             <a href='#projects'>Projects</a>
           </li>
-          <li className={styles.contact}>
-            <a href='#contact'>Contact</a>
+          <li>
+            <a className={styles.contact} href='#contact'>
+              Contact
+            </a>
           </li>
         </ul>
       </div>
-      <div className={styles.mobile} onClick={handleClick}>
+      <div className={styles.burger} onClick={handleClick}>
         {clicked ? (
           <FaTimes className={styles.icon} />
         ) : (
