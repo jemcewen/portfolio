@@ -1,0 +1,36 @@
+h1 {
+  font-size: 4rem;
+  font-weight: 600;
+}
+
+h3 {
+  font-size: 2rem;
+  font-weight: 400;
+}
+
+.buttons {
+  display: flex;
+  justify-content: space-between;
+  gap: 1rem;
+}
+
+.contact {
+  display: none;
+}
+
+@media (max-width: 480px) {
+  h1 {
+    font-size: 2.5rem;
+  }
+
+  h3 {
+    font-size: 1.5rem;
+  }
+  .contact {
+    display: inline;
+  }
+
+  .button {
+    width: 9rem;
+  }
+}
