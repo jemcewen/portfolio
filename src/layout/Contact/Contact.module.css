@@ -53,9 +53,6 @@
 }
 
 @media (max-width: 480px) {
-  .contact {
-    min-height: calc(100vh - 12rem);
-  }
   .form {
     width: 100%;
     padding: 1.5rem;
