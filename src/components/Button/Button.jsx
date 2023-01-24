@@ -5,7 +5,7 @@ const Button = (props) => {
     <button
       type={props.type}
       onClick={props.onClick}
-      className={styles.button}
+      className={`${styles.button} ${props.className}`}
       disabled={props.disabled}
     >
       <span className={styles['button-shadow']}></span>
