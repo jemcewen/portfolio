@@ -1,11 +1,14 @@
 import Navigation from './layout/Navigation/Navigation';
+import Contact from './layout/Contact/Contact';
 import Footer from './layout/Footer/Footer';
+
 const App = () => {
   return (
-    <div>
+    <>
       <Navigation />
+      <Contact />
       <Footer />
-    </div>
+    </>
   );
 };
 export default App;
