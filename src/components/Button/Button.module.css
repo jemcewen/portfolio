@@ -58,7 +58,7 @@
 
 @media (min-width: 768px) {
   .button-front {
-    padding: 12px 42px;
+    padding: 0.75rem 2.625rem;
   }
 }
 
