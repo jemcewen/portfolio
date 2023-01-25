@@ -1,4 +1,3 @@
-import { FaGithub } from 'react-icons/fa';
 import Button from '../../components/Button/Button';
 import styles from './Projects.module.css';
 import pastDrafts from '../../assets/past-drafts.png';
