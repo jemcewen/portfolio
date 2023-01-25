@@ -9,6 +9,10 @@ const Navigation = () => {
     setClicked((prev) => !prev);
   };
 
+  const closeMenu = () => {
+    setClicked(false);
+  };
+
   return (
     <nav className={styles.nav}>
       <a href='#home' className={styles.logo}>
@@ -23,16 +27,20 @@ const Navigation = () => {
           }
         >
           <li>
-            <a href='#home'>Home</a>
+            <a href='#home' onClick={closeMenu}>
+              Home
+            </a>
           </li>
           <li>
-            <a href='#about'>About</a>
+            <a href='#about' onClick={closeMenu}>
+              About
+            </a>
           </li>
           <li>
             <a href='#projects'>Projects</a>
           </li>
           <li>
-            <a className={styles.contact} href='#contact'>
+            <a className={styles.contact} href='#contact' onClick={closeMenu}>
               Contact
             </a>
           </li>
