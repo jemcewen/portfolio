@@ -9,7 +9,7 @@ import styles from './Home.module.css';
 
 const Home = () => {
   return (
-    <section id='home'>
+    <section id='home' className={styles.home}>
       <div className={styles.landing}>
         <h1 className={styles.name}>James McEwen</h1>
         <h3 className={styles.title}>Full-Stack Web Developer</h3>

@@ -1,3 +1,9 @@
+.home {
+  background: linear-gradient(rgb(246, 246, 246), rgba(0, 0, 0, 0) 50%),
+    linear-gradient(rgba(0, 0, 0, 0) 50%, rgb(246, 246, 246)),
+    url('https://www.pixeden.com/media/k2/galleries/112/001-subtle-light-pattern-background-texture.jpg');
+}
+
 .landing {
   display: flex;
   flex-direction: column;
