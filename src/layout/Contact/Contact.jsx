@@ -56,7 +56,6 @@ const Contact = () => {
       },
       {
         style: {
-          marginTop: '10rem',
           fontWeight: '600',
           minWidth: '20rem',
         },
