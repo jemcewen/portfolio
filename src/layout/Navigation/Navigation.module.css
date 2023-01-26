@@ -7,7 +7,7 @@
   justify-content: space-between;
   position: sticky;
   top: 0;
-  background-color: black;
+  background-color: white;
   z-index: 2;
 }
 
@@ -23,22 +23,23 @@
   font-weight: 600;
   padding: 0.6rem 1rem;
   transition: transform 200ms ease-in-out;
-  color: white;
+  color: rgb(30, 29, 32);
   border-radius: 0.5rem;
+  letter-spacing: 1px;
 }
 
 .nav-links li a:hover {
-  background-color: rgba(50, 50, 50, 0.5);
+  background-color: rgba(255, 70, 84, 0.5);
 }
 
 .contact {
-  background-color: rgba(50, 50, 50, 1);
+  background-color: hsl(345deg 100% 47%);
 }
 
 .logo {
   font-size: 1.25rem;
   font-weight: 600;
-  color: white;
+  color: rgb(30, 29, 32);
 }
 
 .burger {
@@ -47,7 +48,7 @@
 }
 
 .icon {
-  color: white;
+  color: rgb(30, 29, 32);
   font-size: 1.5rem;
 }
 
@@ -66,7 +67,7 @@
     width: 80vw;
     gap: 2rem;
     padding-top: 8rem;
-    background-color: rgb(63, 63, 63);
+    background-color: rgb(172, 172, 172);
     transition: 0.3s ease-in-out;
   }
 
