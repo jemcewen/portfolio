@@ -1,4 +1,6 @@
+import Button from '../../components/Button/Button';
 import styles from './About.module.css';
+
 const About = () => {
   return (
     <section id='about'>
@@ -12,6 +14,9 @@ const About = () => {
               Technology and completed the <b>Computer Systems Technology</b>{' '}
               Diploma.
             </div>
+            <Button className={styles.contact}>
+              <a href='#contact'>Contact</a>
+            </Button>
           </div>
           <div className={styles['tech-skills']}>
             <div className={styles['tech-item']}>
