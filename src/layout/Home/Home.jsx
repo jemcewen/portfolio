@@ -10,9 +10,9 @@ import styles from './Home.module.css';
 const Home = () => {
   return (
     <section id='home'>
-      <div className='container'>
-        <h1>James McEwen</h1>
-        <h3>Full-Stack Web Developer</h3>
+      <div className={styles.landing}>
+        <h1 className={styles.name}>James McEwen</h1>
+        <h3 className={styles.title}>Full-Stack Web Developer</h3>
         <div className={styles.buttons}>
           <Button className={styles.button}>
             <a href='#projects'>Projects</a>

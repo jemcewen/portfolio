@@ -5,8 +5,8 @@ const Button = (props) => {
     <button
       type={props.type}
       onClick={props.onClick}
-      className={`${styles.button} ${props.className}`}
       disabled={props.disabled}
+      className={`${styles.button} ${props.className}`}
     >
       <span className={styles['button-shadow']}></span>
       <span className={styles['button-edge']}></span>

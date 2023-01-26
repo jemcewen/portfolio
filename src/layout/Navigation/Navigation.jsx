@@ -37,10 +37,12 @@ const Navigation = () => {
             </a>
           </li>
           <li>
-            <a href='#projects'>Projects</a>
+            <a href='#projects' onClick={closeMenu}>
+              Projects
+            </a>
           </li>
           <li>
-            <a className={styles.contact} href='#contact' onClick={closeMenu}>
+            <a href='#contact' onClick={closeMenu}>
               Contact
             </a>
           </li>
