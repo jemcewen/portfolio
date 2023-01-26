@@ -2,15 +2,33 @@
   display: flex;
   flex-direction: column;
   justify-content: center;
+  position: relative;
   align-items: center;
-  height: 8rem;
+  height: 12rem;
   gap: 0.5rem;
-  background-color: black;
+  background-color: white;
+  color: rgb(30, 29, 32);
+}
+
+.return-home {
+  position: absolute;
+  top: -1.5rem;
+  width: 2.5rem;
+  height: 2.8rem;
+  background-color: hsl(345deg 100% 47%);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 6px;
+}
+
+.arrow {
+  font-size: 1.5rem;
   color: white;
 }
 
 .socials {
-  font-size: 2.2rem;
+  font-size: 2.6rem;
   display: flex;
   gap: 0.6rem;
   justify-content: space-between;
@@ -18,7 +36,7 @@
 
 .icon {
   transition: transform 200ms ease-in-out;
-  color: white;
+  color: rgb(30, 29, 32);
 }
 
 .icon:hover {
@@ -26,7 +44,7 @@
 }
 
 .copyright {
-  font-size: 0.8rem;
+  font-size: 0.9rem;
   font-weight: 500;
   text-transform: uppercase;
 }
