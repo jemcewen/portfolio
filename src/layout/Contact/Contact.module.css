@@ -28,7 +28,6 @@
 }
 
 .input {
-  /* all: unset; */
   padding: 0.6rem;
   margin-top: 0.6rem;
   border-radius: 0.5rem;
@@ -47,7 +46,7 @@
 }
 
 .message {
-  font-size: 0.8rem;
+  font-size: 0.9rem;
 }
 
 .hidden {
@@ -67,11 +66,5 @@
   }
   .label {
     font-size: 1rem;
-  }
-  .input {
-    font-size: 0.8rem;
-  }
-  .message {
-    font-size: 0.7rem;
   }
 }
