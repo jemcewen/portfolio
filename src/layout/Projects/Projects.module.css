@@ -1,7 +1,7 @@
 .projects {
   display: flex;
   flex-direction: column;
-  gap: 3rem;
+  gap: 7rem;
 }
 
 .project-card {

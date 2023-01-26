@@ -18,9 +18,10 @@ const Projects = () => {
             <div className={styles['project-info']}>
               <h4 className={styles['project-title']}>Past Drafts</h4>
               <p>
-                A basic React application that allows the user to search for a
-                player and view when that player was drafted and who was
-                selected before them.
+                A basic front-end application built using React, Tailwind, and
+                data from the ESPN API. Using this tool, users can search for
+                NFL players, view their draft order, and filter by players of
+                the same position.
               </p>
 
               <div className={styles.buttons}>
@@ -55,9 +56,10 @@ const Projects = () => {
             <div className={styles['project-info']}>
               <h4 className={styles['project-title']}>Rate My Campus</h4>
               <p>
-                A full stack application that allows users to rate university
-                campuses. This application includes authentication, image
-                upload, and more.
+                A full stack application including authorization built with
+                Node.js, Express, MongoDB, and Bootstrap that allows users to
+                rate university campuses. Users can register to leave a review,
+                or add their own campus if it is not already listed.
               </p>
               <div className={styles.buttons}>
                 <Button>
