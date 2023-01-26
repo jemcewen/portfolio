@@ -1,3 +1,9 @@
+import {
+  FaGithubSquare,
+  FaLinkedin,
+  FaEnvelopeSquare,
+  FaChevronDown,
+} from 'react-icons/fa';
 import Button from '../../components/Button/Button';
 import styles from './Home.module.css';
 
@@ -14,6 +20,35 @@ const Home = () => {
           <Button className={`${styles.contact} ${styles.button}`}>
             <a href='#contact'>Contact</a>
           </Button>
+        </div>
+        <div className={styles.socials}>
+          <a
+            href='https://github.com/jemcewen'
+            target='_blank'
+            rel='noreferrer'
+          >
+            <FaGithubSquare className={styles.icon} />
+          </a>
+          <a
+            href='https://www.linkedin.com/in/jemcewen/'
+            target='_blank'
+            rel='noreferrer'
+          >
+            <FaLinkedin className={styles.icon} />
+          </a>
+          <a
+            href='mailto:jamesmcewen5@gmail.com'
+            target='_blank'
+            rel='noreferrer'
+          >
+            <FaEnvelopeSquare className={styles.icon} />
+          </a>
+        </div>
+
+        <div className={styles.arrow}>
+          <a href='#about'>
+            <FaChevronDown className={styles.icon} />
+          </a>
         </div>
       </div>
     </section>
