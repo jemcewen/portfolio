@@ -9,16 +9,24 @@ const About = () => {
         <div className={styles.content}>
           <div className={styles['about-text']}>
             <div>
-              I am a <b>Full-Stack Web Developer</b> with a passion for building
-              web applications. I studied at the British Columbia Institute of
-              Technology and completed the <b>Computer Systems Technology</b>{' '}
-              Diploma.
+              I am a <b>Junior Developer</b> with a strong foundation in
+              object-oriented programing and web technologies. I studied at the
+              British Columbia Institute of Technology and completed the{' '}
+              <b>Computer Systems Technology</b> Diploma.
             </div>
             <Button className={styles.contact}>
               <a href='#contact'>Contact</a>
             </Button>
           </div>
           <div className={styles['tech-skills']}>
+            <div className={styles['tech-item']}>
+              <img
+                src='https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg'
+                alt='java'
+                className={styles.icon}
+              />
+              <p>Java</p>
+            </div>
             <div className={styles['tech-item']}>
               <img
                 src='https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg'
