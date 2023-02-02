@@ -18,10 +18,11 @@ const Projects = () => {
             <div className={styles['project-info']}>
               <h4 className={styles['project-title']}>Past Drafts</h4>
               <p>
-                A basic front-end application built using React, Tailwind, and
-                data from the ESPN API. Using this tool, users can search for
-                NFL players, view their draft order, and filter by players of
-                the same position.
+                Single Page Application that pulls data from an ESPN API to
+                display information about NFL players and when they were
+                selected in the entry draft. Built with React, implements
+                various react hooks including context, reducer, and state
+                management.
               </p>
 
               <div className={styles.buttons}>
@@ -31,7 +32,7 @@ const Projects = () => {
                     target='_blank'
                     rel='noreferrer'
                   >
-                    Demo
+                    Live
                   </a>
                 </Button>
                 <Button>
@@ -56,10 +57,9 @@ const Projects = () => {
             <div className={styles['project-info']}>
               <h4 className={styles['project-title']}>Rate My Campus</h4>
               <p>
-                A full stack application including authorization built with
-                Node.js, Express, MongoDB, and Bootstrap that allows users to
-                rate university campuses. Users can register to leave a review,
-                or add their own campus if it is not already listed.
+                Full-stack web application allows users to rate and review
+                university campuses. Features REST API, image upload, map
+                functionality, and authentication with Passport.js.
               </p>
               <div className={styles.buttons}>
                 <Button>
@@ -68,7 +68,7 @@ const Projects = () => {
                     target='_blank'
                     rel='noreferrer'
                   >
-                    Demo
+                    Live
                   </a>
                 </Button>
                 <Button>
