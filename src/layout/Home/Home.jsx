@@ -1,6 +1,5 @@
 import {
   FaGithubSquare,
-  FaLinkedin,
   FaEnvelopeSquare,
   FaChevronDown,
 } from 'react-icons/fa';
@@ -12,7 +11,7 @@ const Home = () => {
     <section id='home' className={styles.home}>
       <div className={styles.landing}>
         <h1 className={styles.name}>James McEwen</h1>
-        <h3 className={styles.title}>Full-Stack Web Developer</h3>
+        <h3 className={styles.title}>Junior Developer</h3>
         <div className={styles.buttons}>
           <Button className={styles.button}>
             <a href='#projects'>Projects</a>
@@ -28,13 +27,6 @@ const Home = () => {
             rel='noreferrer'
           >
             <FaGithubSquare className={styles.icon} />
-          </a>
-          <a
-            href='https://www.linkedin.com/in/jemcewen/'
-            target='_blank'
-            rel='noreferrer'
-          >
-            <FaLinkedin className={styles.icon} />
           </a>
           <a
             href='mailto:jamesmcewen5@gmail.com'
