@@ -20,13 +20,6 @@ const Footer = () => {
           <FaGithubSquare className={styles.icon} />
         </a>
         <a
-          href='https://www.linkedin.com/in/jemcewen/'
-          target='_blank'
-          rel='noreferrer'
-        >
-          <FaLinkedin className={styles.icon} />
-        </a>
-        <a
           href='mailto:jamesmcewen5@gmail.com'
           target='_blank'
           rel='noreferrer'
