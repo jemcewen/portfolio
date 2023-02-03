@@ -13,12 +13,14 @@ const Home = () => {
         <h1 className={styles.name}>James McEwen</h1>
         <h3 className={styles.title}>Junior Developer</h3>
         <div className={styles.buttons}>
-          <Button className={styles.button}>
-            <a href='#projects'>Projects</a>
-          </Button>
-          <Button className={`${styles.contact} ${styles.button}`}>
-            <a href='#contact'>Contact</a>
-          </Button>
+          <a href='#projects'>
+            <Button className={styles.button}>Projects</Button>
+          </a>
+          <a href='#contact'>
+            <Button className={`${styles.contact} ${styles.button}`}>
+              Contact
+            </Button>
+          </a>
         </div>
         <div className={styles.socials}>
           <a

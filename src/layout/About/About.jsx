@@ -14,9 +14,9 @@ const About = () => {
               British Columbia Institute of Technology and completed the{' '}
               <b>Computer Systems Technology</b> Diploma.
             </div>
-            <Button className={styles.contact}>
-              <a href='#contact'>Contact</a>
-            </Button>
+            <a href='#contact'>
+              <Button className={styles.contact}>Contact</Button>
+            </a>
           </div>
           <div className={styles['tech-skills']}>
             <div className={styles['tech-item']}>

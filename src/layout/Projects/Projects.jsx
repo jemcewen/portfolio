@@ -26,24 +26,20 @@ const Projects = () => {
               </p>
 
               <div className={styles.buttons}>
-                <Button>
-                  <a
-                    href='https://past-drafts.vercel.app/'
-                    target='_blank'
-                    rel='noreferrer'
-                  >
-                    Live
-                  </a>
-                </Button>
-                <Button>
-                  <a
-                    href='https://github.com/jemcewen/drafted-before'
-                    target='_blank'
-                    rel='noreferrer'
-                  >
-                    Code
-                  </a>
-                </Button>
+                <a
+                  href='https://past-drafts.vercel.app/'
+                  target='_blank'
+                  rel='noreferrer'
+                >
+                  <Button>Live</Button>
+                </a>
+                <a
+                  href='https://github.com/jemcewen/drafted-before'
+                  target='_blank'
+                  rel='noreferrer'
+                >
+                  <Button>Code</Button>
+                </a>
               </div>
             </div>
           </div>
@@ -62,24 +58,20 @@ const Projects = () => {
                 functionality, and authentication with Passport.js.
               </p>
               <div className={styles.buttons}>
-                <Button>
-                  <a
-                    href='https://rate-my-campus.onrender.com/'
-                    target='_blank'
-                    rel='noreferrer'
-                  >
-                    Live
-                  </a>
-                </Button>
-                <Button>
-                  <a
-                    href='https://github.com/jemcewen/rate-my-campus'
-                    target='_blank'
-                    rel='noreferrer'
-                  >
-                    Code
-                  </a>
-                </Button>
+                <a
+                  href='https://rate-my-campus.onrender.com/'
+                  target='_blank'
+                  rel='noreferrer'
+                >
+                  <Button>Live</Button>
+                </a>{' '}
+                <a
+                  href='https://github.com/jemcewen/rate-my-campus'
+                  target='_blank'
+                  rel='noreferrer'
+                >
+                  <Button>Code</Button>
+                </a>
               </div>
             </div>
           </div>
