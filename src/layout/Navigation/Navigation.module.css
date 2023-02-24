@@ -30,21 +30,30 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  gap: 3vw;
+  gap: 4vw;
 }
 
 .nav-links li a {
   font-size: 1.05rem;
   font-weight: 600;
-  padding: 0.6rem 1rem;
-  transition: transform 200ms ease-in-out;
   color: rgb(30, 29, 32);
-  border-radius: 0.5rem;
   letter-spacing: 1px;
+  position: relative;
 }
 
-.nav-links li a:hover {
-  background-color: rgba(255, 70, 84, 0.5);
+.nav-links li a:after {
+  content: '';
+  position: absolute;
+  background-color: rgb(30, 29, 32);
+  height: 2px;
+  width: 0;
+  left: 0;
+  bottom: -8px;
+  transition: 0.3s;
+}
+
+.nav-links li a:hover:after {
+  width: 100%;
 }
 
 .logo {
