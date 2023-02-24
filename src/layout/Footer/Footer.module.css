@@ -10,27 +10,10 @@
   color: rgb(30, 29, 32);
 }
 
-.return-home {
-  position: absolute;
-  top: -1.5rem;
-  width: 2.5rem;
-  height: 2.8rem;
-  background-color: hsl(345deg 100% 47%);
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  border-radius: 6px;
-}
-
-.arrow {
-  font-size: 1.5rem;
-  color: white;
-}
-
 .socials {
-  font-size: 2.6rem;
+  font-size: 2.2rem;
   display: flex;
-  gap: 0.6rem;
+  gap: 1rem;
   justify-content: space-between;
 }
 
