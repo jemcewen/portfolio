@@ -13,6 +13,11 @@ const Navigation = () => {
     setClicked(false);
   };
 
+  const handleScroll = (id) => {
+    const section = document.getElementById(id);
+    section.scrollIntoView({ behavior: 'smooth' });
+  };
+
   return (
     <>
       <div
@@ -32,25 +37,17 @@ const Navigation = () => {
                 : `${styles['nav-links']}`
             }
           >
-            <li>
-              <a href='#home' onClick={closeMenu}>
-                Home
-              </a>
+            <li onClick={() => handleScroll('home')}>
+              <p onClick={closeMenu}>Home</p>
             </li>
-            <li>
-              <a href='#about' onClick={closeMenu}>
-                About
-              </a>
+            <li onClick={() => handleScroll('about')}>
+              <p onClick={closeMenu}>About</p>
             </li>
-            <li>
-              <a href='#projects' onClick={closeMenu}>
-                Projects
-              </a>
+            <li onClick={() => handleScroll('projects')}>
+              <p onClick={closeMenu}>Projects</p>
             </li>
-            <li>
-              <a href='#contact' onClick={closeMenu}>
-                Contact
-              </a>
+            <li onClick={() => handleScroll('contact')}>
+              <p onClick={closeMenu}>Contact</p>
             </li>
           </ul>
         </div>
