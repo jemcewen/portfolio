@@ -1,38 +1,24 @@
-.home {
-  background: linear-gradient(rgb(246, 246, 246), rgba(0, 0, 0, 0) 50%),
-    linear-gradient(rgba(0, 0, 0, 0) 50%, rgb(246, 246, 246)),
-    url('https://www.pixeden.com/media/k2/galleries/112/001-subtle-light-pattern-background-texture.jpg');
-}
-
 .landing {
   display: flex;
   flex-direction: column;
   align-items: center;
   width: 90%;
   gap: 1.5rem;
-  padding-bottom: 8rem;
 }
 
-.name {
+.heading {
   font-size: 4rem;
-  font-weight: 600;
+  font-weight: 700;
+  letter-spacing: 1px;
 }
 
-.title {
+.sub-heading {
   font-size: 2rem;
-  font-weight: 400;
-  font-style: italic;
+  font-weight: 500;
 }
 
-.buttons {
-  display: flex;
-  justify-content: space-between;
-  gap: 1rem;
+.button {
   margin-top: 1rem;
-}
-
-.contact {
-  display: none;
 }
 
 .socials {
@@ -73,19 +59,12 @@
 }
 
 @media (max-width: 480px) {
-  .name {
-    font-size: 2.5rem;
+  .heading {
+    font-size: 2.2rem;
   }
 
-  .title {
+  .sub-heading {
     font-size: 1.5rem;
-  }
-  .contact {
-    display: inline;
-  }
-
-  .button {
-    width: 9rem;
   }
 
   .socials {
@@ -94,6 +73,7 @@
     padding: 0;
     gap: 0;
   }
+
   .icon {
     font-size: 2rem;
   }
