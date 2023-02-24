@@ -8,9 +8,7 @@ const Button = (props) => {
       disabled={props.disabled}
       className={`${styles.button} ${props.className}`}
     >
-      <span className={styles['button-shadow']}></span>
-      <span className={styles['button-edge']}></span>
-      <span className={styles['button-front']}>{props.children}</span>
+      {props.children}
     </button>
   );
 };
