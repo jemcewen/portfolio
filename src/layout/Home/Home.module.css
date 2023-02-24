@@ -42,22 +42,6 @@
   transform: scale(1.2);
 }
 
-.arrow {
-  animation: MoveUpDown 3s linear infinite;
-  position: absolute;
-  bottom: 5%;
-}
-
-@keyframes MoveUpDown {
-  0%,
-  100% {
-    transform: translateY(0);
-  }
-  50% {
-    transform: translateY(-2rem);
-  }
-}
-
 @media (max-width: 480px) {
   .heading {
     font-size: 2.2rem;

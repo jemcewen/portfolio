@@ -39,11 +39,6 @@ const Home = () => {
             <FaLinkedin className={styles.icon} />
           </a>
         </div>
-        <div className={styles.arrow}>
-          <a href='#about'>
-            <FaChevronDown className={styles.icon} />
-          </a>
-        </div>
       </div>
     </section>
   );
