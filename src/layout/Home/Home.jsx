@@ -1,6 +1,7 @@
 import {
   FaGithubSquare,
   FaEnvelopeSquare,
+  FaLinkedin,
   FaChevronDown,
 } from 'react-icons/fa';
 import Button from '../../components/Button/Button';
@@ -29,6 +30,13 @@ const Home = () => {
             rel='noreferrer'
           >
             <FaEnvelopeSquare className={styles.icon} />
+          </a>
+          <a
+            href='https://www.linkedin.com/in/jemcewen/'
+            target='_blank'
+            rel='noreferrer'
+          >
+            <FaLinkedin className={styles.icon} />
           </a>
         </div>
         <div className={styles.arrow}>
