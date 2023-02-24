@@ -8,20 +8,13 @@ import styles from './Home.module.css';
 
 const Home = () => {
   return (
-    <section id='home' className={styles.home}>
+    <section id='home'>
       <div className={styles.landing}>
-        <h1 className={styles.name}>James McEwen</h1>
-        <h3 className={styles.title}>Full Stack Web Developer</h3>
-        <div className={styles.buttons}>
-          <a href='#projects'>
-            <Button className={styles.button}>Projects</Button>
-          </a>
-          <a href='#contact'>
-            <Button className={`${styles.contact} ${styles.button}`}>
-              Contact
-            </Button>
-          </a>
-        </div>
+        <h1 className={styles.heading}>James McEwen</h1>
+        <h3 className={styles['sub-heading']}>Full Stack Web Developer</h3>
+        <a href='#projects'>
+          <Button className={styles.button}>View My Work</Button>
+        </a>
         <div className={styles.socials}>
           <a
             href='https://github.com/jemcewen'
@@ -38,7 +31,6 @@ const Home = () => {
             <FaEnvelopeSquare className={styles.icon} />
           </a>
         </div>
-
         <div className={styles.arrow}>
           <a href='#about'>
             <FaChevronDown className={styles.icon} />
