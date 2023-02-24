@@ -1,9 +1,4 @@
-import {
-  FaGithubSquare,
-  FaEnvelopeSquare,
-  FaLinkedin,
-  FaChevronDown,
-} from 'react-icons/fa';
+import { FaGithubSquare, FaEnvelopeSquare, FaLinkedin } from 'react-icons/fa';
 import Button from '../../components/Button/Button';
 import styles from './Home.module.css';
 
