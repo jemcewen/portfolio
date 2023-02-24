@@ -11,7 +11,7 @@ const Home = () => {
     <section id='home' className={styles.home}>
       <div className={styles.landing}>
         <h1 className={styles.name}>James McEwen</h1>
-        <h3 className={styles.title}>Junior Developer</h3>
+        <h3 className={styles.title}>Full Stack Web Developer</h3>
         <div className={styles.buttons}>
           <a href='#projects'>
             <Button className={styles.button}>Projects</Button>
