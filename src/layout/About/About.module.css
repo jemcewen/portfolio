@@ -1,9 +1,8 @@
 .section {
-  position: relative;
   min-height: calc(100vh - 5rem);
-  display: grid;
-  grid-template-rows: 1fr auto 1fr;
-  justify-items: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   background-color: #f6f5f9;
   color: #100e19;
   scroll-margin-top: 5rem;
@@ -12,12 +11,11 @@
 @media (max-width: 480px) {
   .section {
     min-height: calc(100vh - 4rem);
-    scroll-margin-top: -2rem;
+    scroll-margin-top: 4rem;
   }
 }
 
 .container {
-  grid-row-start: 2;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -31,25 +29,6 @@
   .container {
     gap: 2rem;
     margin-bottom: 4rem;
-  }
-}
-
-.spacer {
-  aspect-ratio: 1200/300;
-  width: 100%;
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover;
-  background-image: url('/public/svg/top-wave.svg');
-  grid-row-start: 1;
-  align-self: start;
-  margin-top: -5px;
-}
-
-@media (min-width: 992px) {
-  .spacer {
-    aspect-ratio: 3000/300;
-    background-image: url('/public/svg/long-top-wave.svg');
   }
 }
 

@@ -4,7 +4,6 @@ import styles from './About.module.css';
 const About = () => {
   return (
     <section id='about' className={styles.section}>
-      <div className={styles.spacer}></div>
       <div className={styles.container}>
         <h2>About</h2>
         <div className={styles.content}>
