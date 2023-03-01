@@ -15,11 +15,6 @@ const Navigation = () => {
 
   return (
     <>
-      <div
-        className={
-          clicked ? `${styles.overlay} ${styles.show}` : `${styles.overlay}`
-        }
-      ></div>
       <nav className={styles.nav}>
         <a href='#home' className={styles.logo}>
           James McEwen
@@ -54,7 +49,6 @@ const Navigation = () => {
             </li>
           </ul>
         </div>
-
         <div className={styles.burger} onClick={handleClick}>
           {clicked ? (
             <FaTimes className={styles.icon} />
