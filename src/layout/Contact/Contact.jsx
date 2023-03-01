@@ -3,7 +3,7 @@ import emailjs from '@emailjs/browser';
 import useInput from '../../hooks/useInput';
 import Button from '../../components/Button/Button';
 import styles from './Contact.module.css';
-import toast, { Toaster } from 'react-hot-toast';
+import toast from 'react-hot-toast';
 
 const validateText = (text) => {
   return text.trim() !== '';
@@ -72,8 +72,8 @@ const Contact = () => {
     hasError ? `${styles.message}` : `${styles.hidden} ${styles.message}`;
 
   return (
-    <section className={styles.contact} id='contact'>
-      <div className='container '>
+    <section className={styles.section} id='contact'>
+      <div className={styles.content}>
         <h2>Contact</h2>
         <form ref={form} onSubmit={handleSubmit} className={styles.form}>
           <div className={styles['form-group']}>
@@ -137,16 +137,7 @@ const Contact = () => {
           </div>
         </form>
       </div>
-      <Toaster
-        toastOptions={{
-          className: '',
-          style: {
-            fontSize: '1.2rem',
-            borderRadius: '12px',
-            padding: '2rem',
-          },
-        }}
-      />
+      <div className={styles.spacer}></div>
     </section>
   );
 };
