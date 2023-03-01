@@ -12,7 +12,7 @@ const projects = [
     ],
     description: [
       'The main goal of this project is to assist high school students in the challenging process of choosing a post-secondary institution to attend.',
-      'The application offers a user-friendly interface for browsing and reviewing various campuses, with registered users being able to contribute their own reviews, or add a new campus to the platform.',
+      'The application offers a user-friendly interface for browsing and reviewing various campuses, with registered users being able to contribute their own reviews or add a new campus to the platform.',
       'To enhance user security, this project includes authentication with JSON Web Tokens. In addition, image upload and storage are facilitated using Cloudinary, while MapBox is employed for geocoding and mapping.',
     ],
     technology:
