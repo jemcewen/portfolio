@@ -1,5 +1,6 @@
 const projects = [
   {
+    number: 1,
     title: 'Rate My Campus',
     intro:
       'A full-stack application that enables students to rate and provide feedback on university campuses',
@@ -36,6 +37,7 @@ const projects = [
     ],
   },
   {
+    number: 2,
     title: 'Past Drafts',
     intro:
       'A frontend react application for users to easily search for NFL players and access their draft statistics.',

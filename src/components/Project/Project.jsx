@@ -5,7 +5,8 @@ const Project = ({ project }) => {
     <div className={styles.project}>
       <div className={styles.introduction}>
         <h3 className={styles['project-heading']}>
-          <span className={styles.highlight}>1.</span> {project.title}
+          <span className={styles.highlight}>{project.number}.</span>{' '}
+          {project.title}
         </h3>
         <p className={styles.paragraph}>{project.intro}</p>
         <div className={styles['project-links']}>
