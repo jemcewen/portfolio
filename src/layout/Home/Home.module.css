@@ -68,6 +68,7 @@
   background-image: url('/public/svg/top-wave.svg');
   grid-row-start: 3;
   align-self: end;
+  margin-bottom: -1px;
 }
 
 @media (min-width: 992px) {
