@@ -43,7 +43,7 @@
   background-image: url('/public/svg/top-wave.svg');
   grid-row-start: 1;
   align-self: start;
-  margin-top: -1px;
+  margin-top: -2px;
 }
 
 @media (min-width: 992px) {
