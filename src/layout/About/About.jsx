@@ -3,30 +3,28 @@ import styles from './About.module.css';
 
 const About = () => {
   return (
-    <section id='about'>
-      <div className='container'>
+    <section id='about' className={styles.section}>
+      <div className={styles.spacer}></div>
+      <div className={styles.container}>
         <h2>About</h2>
         <div className={styles.content}>
           <div className={styles['about-text']}>
             <div>
-              I am a <b>Junior Developer</b> with a strong foundation in
-              object-oriented programing and web technologies. I studied at the
-              British Columbia Institute of Technology and completed the{' '}
-              <b>Computer Systems Technology</b> Diploma.
+              I am a{' '}
+              <span className={styles.highlight}>Full Stack Web Developer</span>{' '}
+              with a strong foundation in object-oriented programing and web
+              technologies. I studied at the British Columbia Institute of
+              Technology where I completed the{' '}
+              <span className={styles.highlight}>
+                Computer Systems Technology
+              </span>{' '}
+              Diploma.
             </div>
             <a href='#contact'>
               <Button className={styles.contact}>Contact</Button>
             </a>
           </div>
           <div className={styles['tech-skills']}>
-            <div className={styles['tech-item']}>
-              <img
-                src='https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg'
-                alt='java'
-                className={styles.icon}
-              />
-              <p>Java</p>
-            </div>
             <div className={styles['tech-item']}>
               <img
                 src='https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg'
@@ -53,19 +51,11 @@ const About = () => {
             </div>
             <div className={styles['tech-item']}>
               <img
-                src='https://cdn.jsdelivr.net/gh/devicons/devicon/icons/bootstrap/bootstrap-original.svg'
-                alt='bootstrap'
+                src='https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg'
+                alt='java'
                 className={styles.icon}
               />
-              <p>Bootstrap</p>
-            </div>
-            <div className={styles['tech-item']}>
-              <img
-                src='https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg'
-                alt='git'
-                className={styles.icon}
-              />
-              <p>Git</p>
+              <p>Java</p>
             </div>
             <div className={styles['tech-item']}>
               <img
