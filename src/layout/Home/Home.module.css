@@ -2,7 +2,7 @@
   position: relative;
   min-height: calc(100vh - 5rem);
   display: grid;
-  grid-template-rows: 1fr auto 1fr;
+  grid-template-rows: 1fr auto 2fr;
   justify-items: center;
   scroll-margin-top: 5rem;
 }
@@ -21,13 +21,11 @@
   width: 90%;
   max-width: 1000px;
   gap: 2rem;
-  margin-bottom: 5rem;
 }
 
 @media (max-width: 480px) {
   .content {
     gap: 1.5rem;
-    margin-bottom: 4rem;
   }
 }
 
@@ -62,21 +60,20 @@
 }
 
 .spacer {
-  aspect-ratio: 1200/300;
+  aspect-ratio: 1200/600;
   width: 100%;
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
-  background-image: url('/public/svg/layered-waves.svg');
+  background-image: url('/public/svg/top-wave.svg');
   grid-row-start: 3;
   align-self: end;
-  margin-bottom: -5px;
 }
 
 @media (min-width: 992px) {
   .spacer {
     aspect-ratio: 3000/300;
-    background-image: url('/public/svg/long-waves.svg');
+    background-image: url('/public/svg/long-top-wave.svg');
   }
 }
 
