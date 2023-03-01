@@ -70,7 +70,7 @@
   background-image: url('/public/svg/layered-waves.svg');
   grid-row-start: 3;
   align-self: end;
-  margin-bottom: -1px;
+  margin-bottom: -5px;
 }
 
 @media (min-width: 992px) {
