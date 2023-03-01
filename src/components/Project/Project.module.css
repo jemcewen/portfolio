@@ -52,6 +52,7 @@
 
 @media (max-width: 1200px) {
   .images {
+    gap: 1rem;
     padding: 0 2rem;
   }
 }
